@@ -61,11 +61,16 @@ p {
     font-weight: 300;
 }
 
-button {
-    background-color: #3882f6;
+.first, 
+.second {
     color: white; 
     border-radius: 4px; 
-    padding: 8px 20px;
+    padding: 8px 25px;
+    font-weight: 700; 
+}
+
+.first {
+    background-color: #3882f6;
     border: none;  
 }
 
@@ -140,4 +145,53 @@ a:visited {
     font-weight: 800;
     display: flex;
     justify-content: flex-end;
+}
+
+.bottom {
+    display: flex; 
+    padding: 80px 35px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.bluesq {
+    background-color: #3882f6;
+    height: 100px;
+    width: 660px; 
+    display: flex;
+    border-radius: 6px; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px; 
+}
+
+.boxtext {
+    display: flex; 
+    flex-direction: column; 
+    color: white;
+}
+
+.headertext {
+    font-size: 18px; 
+    font-weight: 900; 
+}
+
+.littletext {
+    font-size: 14px; 
+    font-weight: 200; 
+}
+.second {
+    background-color: #3882f6;
+    border: 1px white solid; 
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white; 
+    font-size: 12px; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
 }
