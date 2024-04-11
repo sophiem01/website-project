@@ -5,7 +5,7 @@ body {
 }
 
 .top-half {
-    background-color: rgb(49, 49, 90);
+    background-color: #1f2937;
     padding: 10px 70px 50px 70px; 
 
 }
@@ -13,22 +13,24 @@ body {
 .header {
     color: white;
     display: flex; 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 300px; 
-    padding-bottom: 30px; 
+    padding-bottom: 60px;
+    margin: 0 35px; 
 
 }
 
 ul {
     list-style: none;
     display: flex; 
-    font-size: 14px; 
+    flex-wrap: nowrap;
+    font-size: 18px; 
     gap: 15px; 
+    
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -36,8 +38,10 @@ ul {
     color: white; 
     display: flex; 
     align-items: center; 
-    justify-content: center;
-    gap: 40px; 
+    justify-content: space-between;
+    gap: 30px; 
+    margin: 0 45px; 
+    padding-bottom: 30px; 
 
 }
 
@@ -47,16 +51,59 @@ ul {
 }
 
 h2 {
-    font-size: 30px; 
+    font-size: 48px; 
     font-weight: 900;
+    margin: 0; 
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
 }
 
 button {
-    background-color: blue;
+    background-color: #3882f6;
     color: white; 
+    border-radius: 4px; 
+    padding: 8px 20px;
+    border: none;  
+}
+
+a:link {
+    text-decoration: none;
+    color: white; 
+}
+
+a:visited {
+    text-decoration: none;
+    color: white; 
+}
+
+.title {
+    font-size: 36px;
+    font-weight:900;
+    color: #1f2937;
+    display: flex; 
+    padding: 40px 0; 
+    align-items: center;
+    justify-content: center;
+}
+
+.diagrams {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px; 
+    gap: 80px; 
+    flex-wrap: wrap;
+
+}
+
+.info {
+    max-width: 200px; 
+}
+
+.sqtext {
+    font-size: 18px;
+    text-align: center;
 }
