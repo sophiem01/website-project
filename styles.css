@@ -1,0 +1,62 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0; 
+}
+
+.top-half {
+    background-color: rgb(49, 49, 90);
+    padding: 10px 70px 50px 70px; 
+
+}
+
+.header {
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 300px; 
+    padding-bottom: 30px; 
+
+}
+
+ul {
+    list-style: none;
+    display: flex; 
+    font-size: 14px; 
+    gap: 15px; 
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.contentone{
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 40px; 
+
+}
+
+.text-section {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 30px; 
+    font-weight: 900;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+button {
+    background-color: blue;
+    color: white; 
+}
